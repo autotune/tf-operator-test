@@ -11,8 +11,6 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = true
 
-  tags = local.tags
-
   vpc_tags = {
     Name = "prod"
   }
