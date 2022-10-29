@@ -3,7 +3,7 @@ name: Deploy Infrastructure
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - 'terraform/atlantis.yaml'
       - 'terraform/atlantis/**'
